@@ -1,5 +1,3 @@
 /node_modules
 /sound-swatches/node_modules
-*.js
-*.css
 npm-debug.log
