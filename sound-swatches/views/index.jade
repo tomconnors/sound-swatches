@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #about
+  #work-area
+    #swatch
+    #swatch-roots
+      #swatch-root-note
+      span Root
+      #swatch-root-color
+    ul#swatch-options
+      each option, key in options
+        li
+          input(type='radio', name='swatch-option', value=option, id='swatch-option-#{key}')
+          label(for='swatch-option-#{key}')=option

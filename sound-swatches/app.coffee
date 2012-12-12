@@ -1,5 +1,5 @@
 express = require 'express'
-routes = require './routes/js'
+routes = require './routes/js/index'
 http = require 'http'
 path = require 'path'
 
