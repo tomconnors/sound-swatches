@@ -8,7 +8,5 @@ exports.index = (req, res) ->
       1: 'Minor Scale'
   
   res.render 'index', locals, (err,html) ->
-    console.log 'html', html
-    console.log 'err', err
     res.send html
 
