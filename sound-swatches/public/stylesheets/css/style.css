@@ -1,8 +1,219 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+/* line 1 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/lib/node_modules/stylus/lib/functions/index.styl */
+
+/* line 239 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+
+/* line 6 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+/* line 16 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 19 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+body {
+  line-height: 1;
+}
+
+/* line 22 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 25 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 28 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 39 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+ins {
+  text-decoration: none;
+}
+
+/* line 42 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+del {
+  text-decoration: line-through;
+}
+
+/* line 46 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/reset.styl */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 17 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #808080;
+  background-color: #e6e6e6;
+}
+
+/* line 22 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+/* line 25 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+h1 {
+  color: #694110;
+  font-size: 4em;
+  text-align: center;
+}
+
+/* line 30 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+p {
+  width: 60%;
+  margin-left: 15%;
+}
+
+/* line 34 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#work-area {
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* line 38 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch {
+  margin: 1em 0 1em 0;
+  width: 50%;
+  height: 2em;
+  margin-left: 25%;
+  background-color: #fff;
+}
+
+/* line 45 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch-roots {
+  text-align: center;
+}
+
+/* line 48 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch-roots > div {
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  background-color: #fff;
+}
+
+/* line 54 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch-roots span {
+  padding-bottom: 0.5em;
+}
+
+/* line 57 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+
+/* line 58 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch-options li:nth-of-type(2n-1) {
+  float: left;
+}
+
+/* line 60 : /var/lib/stickshift/477c24b4514249b3841bf051d2c151b3/app-root/data/352705/sound-swatches/public/stylesheets/stylus/style.styl */
+#swatch-options li:nth-of-type(2n) {
+  float: right;
 }

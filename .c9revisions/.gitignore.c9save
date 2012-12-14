@@ -1,2 +1,4 @@
 {"ts":1355362630014,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1355362639738,"patch":[[{"diffs":[[1,"/node_modules\r\n/sound-swatches/node_modules\r\nnpm-debug.log\r\n.c9revisions\r\n!/compile.*js"]],"start1":0,"start2":0,"length1":0,"length2":87}]],"length":87,"saved":false}
+{"ts":1355362724973,"patch":[[{"diffs":[[0,"\r\n!/"],[-1,"compile.*j"],[1,"sound-swatches/compile.*js\r\n*.js\r\n*.cs"],[0,"s"]],"start1":72,"start2":72,"length1":15,"length2":43}]],"length":115,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355447918016,"patch":[[{"diffs":[[0,"ions\r\n!/"],[-1,"sound-swatches/"],[0,"compile."]],"start1":68,"start2":68,"length1":31,"length2":16}]],"length":100,"saved":false}

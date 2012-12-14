@@ -11,8 +11,6 @@
       }
     };
     return res.render('index', locals, function(err, html) {
-      console.log('html', html);
-      console.log('err', err);
       return res.send(html);
     });
   };

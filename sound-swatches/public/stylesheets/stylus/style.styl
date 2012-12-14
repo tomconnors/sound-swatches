@@ -1,0 +1,64 @@
+@import 'reset.styl'
+
+//define colors
+color-primary-1 = #DEDEDE
+color-primary-2 = #808080
+color-primary-3 = #0E3E5B
+color-primary-4 = #E6E6E6
+
+color-complementary-1 = #FFFFFF
+color-complementary-2 = #949494
+color-complementary-3 = #694110
+
+body-font = color-primary-3
+body-back = color-primary-4
+header-color = color-complementary-3
+
+body
+  font 16px "Lucida Grande", Helvetica, Arial, sans-serif
+  color color-primary-2 
+  background-color body-back
+
+a 
+  color #00B7FF
+
+h1
+  color header-color
+  font-size 4em
+  text-align center
+
+p
+  width 60%
+  margin-left 15%
+
+#work-area
+  width 50%
+  margin-left 25%
+
+#swatch
+  margin 1em 0 1em 0
+  width 50%
+  height 2em
+  margin-left 25%
+  background-color: color-complementary-1
+
+#swatch-roots
+  text-align center
+
+  & > div
+    height 2em
+    width 2em
+    display inline-block
+    background-color: color-complementary-1
+
+  & span
+    padding-bottom .5em
+
+#swatch-options
+  li:nth-of-type(2n-1)
+    float left
+  li:nth-of-type(2n)
+    float right
+
+
+  

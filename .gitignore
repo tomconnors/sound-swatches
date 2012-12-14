@@ -3,3 +3,5 @@
 npm-debug.log
 .c9revisions
 !/compile.*js
+*.js
+*.css
